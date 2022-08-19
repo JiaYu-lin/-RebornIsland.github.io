@@ -1,0 +1,236 @@
+﻿body {
+     width:100%;
+}
+.header {
+    width:100%;
+    height:450px;
+    background-color:#f7f7fa;
+    padding-top:75px;
+    }
+.one {
+    width:100%;
+    height:300px;
+    }
+.header-content {
+    width:100%;
+    height:100%;
+    padding-top:20px;
+    padding-left:30%;
+    padding-right:0%;
+    /*background-color:#ffd800;*/
+}
+.header-h2 {
+    color:#454e56; 
+    font-weight:600;
+}
+.logospan {
+    font-size:9px;
+    text-align:left;
+    width:50px;
+    float:left;
+    margin-left:92px;
+    margin-top:-37.5px;
+    color:#454e56;
+    font-weight:600;
+}
+.one font {
+        text-align:left;
+        font-family:Century Gothic;
+    }
+.one span {
+    float:left;
+    font-size:13px;
+    font-weight:400;
+    line-height:10px;
+    color:#318ecc;
+}
+one h2 {
+    font-size:30px;
+    font-weight:600;
+}
+.pattern {
+    letter-spacing:4px;
+    color:#318ecc;
+    /*background-color:#318ecc;*/
+}
+.one p {
+    color:#aaa7aa;
+    font-size:14px;
+    line-height:33px;
+    /*background-color:#ff6a00;*/
+}
+.header-contentR {
+    width:100%;
+    height:100%;
+    padding-top:12px;
+    /*background-color:#318ecc;*/
+}
+.header-around {
+    /*background-color:#ff6a00;*/
+    width:90px;
+    height:180px;
+    -moz-transform:rotate(3deg);
+    -webkit-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    transform:rotate(45deg);
+    float:left;
+    position:relative;
+    margin-left:50px;
+    margin-top:45px;
+}
+.diamond {
+    background-color:#ffffff;
+    width:90px;
+    height:90px;
+    border-radius:10px;
+    margin-top:8px;
+    padding:10px;
+    border:dashed 1.7px #d6d9e0;
+
+}
+.diamond:hover {
+    background-color:#eeeeed;
+}
+.diamond-content {
+    /*background-color:#ffd800;*/
+    width:50px;
+    height:50px;
+    transform-origin:right bottom;
+    transform:rotate(-45deg);
+    font-weight:bold;
+    text-align:center;
+    position:fixed;
+    left:30.5px;
+    bottom:127px;
+    line-height:32px;
+}
+.diamond-content i {
+    color:#308ecc;
+}
+.diamond-content span {
+    font-size:17px;
+    font-family:Microsoft JhengHei;
+    letter-spacing:1px;
+    /*font-style:italic;*/
+}
+.two {
+    background-color:#ffffff;
+    width:100%;
+    font-family:Century Gothic;
+}
+.two-content {
+    width:45%;
+    height:100%;
+    padding-top:75px;
+}
+.two-content h2 {
+    color:#475058;
+}
+.two-content p {
+    color:#b2b0b1;
+}
+.two button {
+    padding:10px 40px;
+    background-color:#ffffff;
+    border:solid 1.1px #e3e3e3;
+    font-size:14px;
+    color:#767677;
+    margin-top:15px;
+    margin-bottom:50px;
+    font-weight:500;
+}
+
+
+.three {
+    width:100%;
+    background-color:#db9e19;
+    font-family:Century Gothic;
+}
+.threeL {
+    width:80%;
+    background-color:#b6ff00;
+    float:right;
+}
+.threeL-content {
+    width:80%;
+    background-color:#ff6a00;
+    float:left;
+}
+.threeL-content font {
+    float:right;
+}
+.threeL-content h4 {
+    /*background-color:#da6262;*/
+    color:#1b75b4;
+    max-width:200px;
+    float:right;
+}
+.threeL-content p {
+    max-width:400px;
+    margin-top:20px;
+    color:#9d9c9e;
+    /*background-color:#650606;*/
+}
+.threeL-circle {
+    width:20%;
+    background-color:#9f3737;
+    float:right;
+}
+.circle-facade {
+    width:100px;
+    height:100px;
+    border-radius:999em;
+    background-color:black;
+}
+.facade-circle {
+    position:relative;
+    left:10px;
+    top:10px;
+    width:95px;
+    height:95px;
+    border-radius:999em;
+    background-color:#aaa7aa;
+}
+
+
+
+
+.threeR {
+    width:80%;
+    background-color:#b6ff00;
+    float:left;
+}
+.threeR-content {
+    width:80%;
+    background-color:#ff6a00;
+    float:right;
+}
+.threeR-content font {
+    float:left;
+}
+.threeR-content h4 {
+    /*background-color:#da6262;*/
+    color:#1b75b4;
+    max-width:200px;
+    float:left;
+}
+.threeR-content p {
+    max-width:400px;
+    margin-top:20px;
+    color:#9d9c9e;
+    /*background-color:#650606;*/
+}
+.threeR-circle {
+    width:20%;
+    background-color:#ff0000;
+    float:right;
+}
+.circle-Negative {
+    width:100px;
+    height:100px;
+    border-radius:999em;
+    background-color:black;
+}
+
+

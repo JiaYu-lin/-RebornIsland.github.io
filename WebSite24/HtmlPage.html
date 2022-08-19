@@ -1,0 +1,946 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/w3.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/icon.css" rel="stylesheet" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    
+    <title>Reborn-Island循環經濟輕度手遊</title>
+	<meta charset="utf-8" />
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="header">
+        <div align="center" class="row one" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-6" style="padding:0;">
+                <div class="header-content" align="center">
+                <font>
+                        <h2 class="header-h2">
+                            <!--<img src="img/logo2.png" width="80" height="54"/>-->
+                            重生島
+                        </h2>
+                        <div class="logospan2">
+                            <strong style="font-size:14px;margin-top:-51px;margin-left:125px;position:absolute;color:#454e56;">REBORN ISLAND <br>  循環經濟手遊</strong>
+                        </div>
+                        <!--<div class="logospan">
+                            REBORN
+                            ISLAND                          
+                        </div>-->
+                        <br style="line-height:28px;">
+                        <span class="w3-animate-left">BEGINNING</span><br>
+                        <h2 style="color:#1b75b5;" class="w3-animate-left">關於資源超支</h2>
+                        <span class="pattern">——</span><br>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p style="margin-top:8px;" class="w3-animate-bottom">
+                                    <!--Etiam ullamcorper et turpis eget hendrerit. Praesent variusi
+                                    sus mi, at elemntum magna ultricies accumsan. Cras vene
+                                    atis lacus sed dolor placeratdmpus. Morbi blandit.-->
+                                    自始至終人類爲所欲爲的支配地球，嚴重影響地球生態資源“供给”
+                                    與“需求”的平衡，國際民間組織<font color="#0062cc">「全球足跡網絡」</font>評估全球範圍
+                                    內生態承載資源消耗之極限，正伴隨著全球化的經濟趨勢急遽發展而每况愈下。
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <p style="margin-top:8px;" class="w3-animate-bottom">
+                                    <!--Etiam ullamcorper et turpis eget hendrerit. Praesent variusi
+                                    sus mi, at elemntum magna ultricies accumsan.--> 
+                                    全球足跡網絡因而提出了<font color="#0062cc">“臨界日”</font>的數值顯示人類正歷經<font color="#0062cc">“預支地球資源”</font>生活
+                                    的險境，以今年度地球超載日統計證實，人類將於2017年8月2日超額透支地球
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <p style="margin-top:8px;" class="w3-animate-bottom">
+                                    耗盡地球所需一年的時間<font color="#0062cc">“再生”</font>才得以供應的生態資源，也意謂著將來需憑藉兩倍的地球產出資源才足以因應人類需求，而在資源消耗加快的不利條件下，超載日的提前將在所難免。
+                                </p>
+                            </div>
+                        </div>
+                        <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>-->
+                    </div>
+                </font>  
+                </div>             
+            </div>
+            <div class="col-md-6" style="padding:0;">
+                <div class="header-contentR">
+                    <div class="w3-animate-right">
+                    <div class="header-around">
+                        <a class="goto" href="#header">
+                            <div class="diamond" style="background-color:#eeeeed;">
+                                <div class="diamond-content">
+                                    <i class="material-icons">blur_circular</i>
+                                    <!--<img src="img/house.png" width="25" height="25" style="margin-bottom:8px;"/>-->
+                                    <span style="margin-left:7px;">首頁</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a  class="goto" href="#issue">
+                        <div class="diamond">
+                            <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                <i class="fa fa-gears" style="font-size:20px;"></i>
+                                <span style="margin-left:1.5px;margin-top:-6px;line-height:20px;">
+                                    經濟發展
+                                </span>
+                            </div>
+                        </div>
+                        </a>
+                        <a class="goto" href="#aquaponics">
+                            <div class="diamond">
+                                <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                    <i class="fa fa-pagelines" style="font-size:20px;"></i>
+                                    <span style="margin-left:1.5px;margin-top:-6px;line-height:20px;">
+                                        魚菜共生
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header-aroundC">
+                        <a class="goto" href="#technology">
+                            <div class="diamond">
+                                <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                    <i class="fa fa-wrench" style="font-size:20px;"></i>
+                                    <span style="margin-left:1.5px;margin-top:-6px;line-height:20px;">
+                                    開發環境
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="goto" href="#market">
+                        <div  class="diamond">
+                            <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                <i class="fa fa-shopping-basket" style="font-size:20px;"></i>
+                                <span style="margin-left:1px;margin-top:-6px;line-height:20px;">
+                                市場調查
+                                </span>
+                            </div>
+                        </div>
+                        </a>
+                        <a class="goto" href="#biogas">
+                            <div class="diamond">
+                                <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                    <i class="fa fa-lightbulb-o" style="font-size:25px;"></i>
+                                    <span style="margin-left:1px;margin-top:-6px;line-height:20px;">
+                                        沼氣發電
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header-aroundB">
+                        <a class="goto" href="#literature">
+                            <div class="diamond">
+                                <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                    <i class="fa fa-book" style="font-size:20px;"></i>
+                                    <span style="margin-left:1.5px;margin-top:-6px;line-height:20px;">
+                                       參考文獻
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="goto" href="#team">
+                            <div class="diamond">
+                                <div class="diamond-content" style="margin-top:-25px;margin-left:10px;">
+                                    <i class="fa fa-slideshare" style="font-size:20px;"></i>
+                                    <span style="margin-left:1px;margin-top:-6px;line-height:20px;">
+                                    開發團隊
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="content" class="content">
+        <div id="issue" class="row two" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-12" align="center">
+                <div class="two-content">
+                    <div class="w3-content w3-section">
+                        <!--w3-animate-css動畫→滑入特效-->
+                        <h2 class="w3-animate-zoom">線性經濟＆循環經濟</h2>
+                        <p class="w3-animate-zoom">
+                            <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci
+                            didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.-->
+                            有鑒於「地球生態超載日」的統計結果，成功促使全球社會積極發展永續的應變方案。<br>然則回朔環境議題的本源，人們最終體認到“經濟發展”和“環境衝擊”兩者密不
+                            可分的因果關係。
+                        </p>
+                        <button id="btn_open" type="button" class="btn btn-primary active w3-animate-bottom">再製“regenerative”</button>
+                        <button id="btn_close" type="button" class="btn btn-primary w3-animate-bottom" >封閉“closed loop”</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="three" class="row three" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-6" style="padding-left:0;">
+                <div class="threeL">
+                    <div class="threeL-content">
+                        <font>
+                            <h4>何為導致資源衰竭主因？</h4>
+                            <br>
+
+                            <p>自工業革命以來，地球首當其衝承受來自<strong style="color:#1b75b5;font-weight:500;">「線性經濟」</strong>商業發展趨勢，其開採、製造、拋棄原物料進而衍生二度環境污染。
+                            </p>
+                        </font>
+                    </div>
+                    <div class="threeL-circle">
+                        <div class="circle-Negative" style="float:right;">
+                            <div class="facade-circle" style="left:4.8px;top:4.5px;">
+                            </div>
+                            <!--<i class="fa fa-plus-square-o"></i>-->
+                            <!--<img src="img/factory01.png" width="90" height="90"/>-->
+                            <img src="img/garbage01.png" width="35" height="35" style="margin-left:31.5px;margin-top:-56px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="padding-right:0;">
+                <div class="threeR">
+                    <div class="threeR-content">
+                        <font>
+                            <h4>生產端“再製”意識興起</h4>
+                            <br>
+                            <p>
+                                各國組織紛紛於近幾年響應環境保護對策，以力圖改進上游產業經營，輾轉帶動<strong style="color:#1b75b5;font-weight:500;">「零廢棄」</strong>生產消費模式成為產業鏈循環之準則，從而減輕環境衝擊。</p>
+                        </font>
+                    </div>
+                    <div class="threeR-circle">
+                        <div class="circle-Negative" style="float:left;">
+                            <div class="facade-circle" style="left:5px;top:5px;">
+                            </div>
+                            <!--<i class="fa fa-plus-square-o"></i>-->
+                            <img src="img/recycling-center.png" width="50" height="50"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--===============================================================-->
+            <div class="col-md-6" style="padding-left:0;">
+                <div class="threeL">
+                    <div class="threeL-content">
+                        <font>
+                            <h4>善用物質轉化，締造新商機</h4>
+                            <br>
+
+                            <p>
+                                理念上有效利用資源、再製的封閉式<strong style="color:#1b75b5;font-weight:500;">「循環經濟」</strong>思維逐漸為生產端採納，致使廢棄物汙染
+                                環境之通病得以改善，更其善用有害物質的轉化，締造嶄新商機。
+                            </p>
+                        </font>
+                    </div>
+                    <div class="threeL-circle">
+                        <div class="circle-Negative" style="float:right;">
+                            <div class="facade-circle" style="left:6.1px;top:6px;">
+
+                            </div>
+                            <!--<i class="fa fa-plus-square-o"></i>-->
+                            <img src="img/conveyor.png" width="50" height="50" style="margin-left:24.5px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="padding-right:0;">
+                <div class="threeR">
+                    <div class="threeR-content">
+                        <font>
+                            <h4>生產消費模式改變</h4>
+                            <br>
+                            <p>
+                                近幾年台灣也加入了改變生產消費模式的行列，強調經濟運作應借鏡
+                                自然生態中的「循環」法則，生生不息的有效利用，而
+                                <strong style="color:#1b75b5;font-weight:500;">
+                                不造成物質廢棄、
+                                浪費的封閉式有機運作。
+                                </strong>
+                            </p>
+                        </font>
+                    </div>
+                    <div class="threeR-circle">
+                        <div class="circle-Negative" style="float:left;">
+                            <div class="facade-circle" style="left:5px;top:5px;">
+                            </div>
+                            <!--<i class="fa fa-plus-square-o"></i>-->
+                            <img src="img/box.png" width="40" height="40" style="margin-top:-58px;margin-left:30px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 觸發覆蓋區塊 -->
+
+           
+
+            <!-- ================= -->
+        </div>
+        <div id="myDIV" class="cover" style="display:none">
+            <div class="coverT">
+                <p>以當前時事為例，台糖公司近日將原先的畜殖場，改建為現代化畜殖場。畜殖場本於畜養時必將產生大量沼氣，而沼氣中所含<strong style="color:#1b75b5;font-weight:500;">“甲烷”</strong>為造成溫室效應加劇的元凶之一，其危害程度是二氧化碳的84倍</p>
+            </div>
+            <div class="coverC">
+                <div class="coverC-circle">
+                    <div class="loading"></div>
+                    <!--<div class="semicircleL">
+                    <i class="material-icons" style="margin:35px;transform:rotate(90deg);font-size:32px;color:#1b75b5;">&#xe87f;</i>
+                </div>
+                <div class="semicircleR">
+                    <i class="material-icons" style="margin:35px;transform:rotate(90deg);font-size:32px;color:#1b75b5;">&#xe8a5;</i>
+                </div>-->
+                    <div class="loading-content">
+                        <div class="loading-left" style="padding-left:15px;">
+                            <img src="img/pig.png" />
+                        </div>
+                        <div class="loading-center">
+                            <i class="material-icons" style="color:#0687ff;margin-left:16px;">&#xe627;</i>
+                        </div>
+                        <div class="loading-right">
+                            <img src="img/pot.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coverB">
+                <p>在現代科技的改良與相幫並行之下，畜殖場改為利用<strong style="color:#1b75b5;font-weight:500;">「沼氣發電」</strong>運作，將動物的廢棄物轉變成可再利用之能源，為畜殖場省下大筆電費，同時大幅減少對地球的危害。</p>
+            </div>
+        </div>
+        <!--===============================================-->
+        <div id="aquaponics" class="row four" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-6">
+                <div class="fourL">
+                    <font>
+                        <span>SYMBIOTIC SYSTEM</span>
+                        <h2>生物循環–魚菜共生</h2>
+                        <span style="letter-spacing:4px;position:absolute;top:113px;">——</span><br>
+                        <p><!-- &nbsp;表示文字間空格 -->
+                            本遊戲旨在傳達循環經濟體系中<strong style="color:#1b75b5;font-weight:500;">「生物循環」</strong>之理念，藉以<strong style="color:#1b75b5;font-weight:500;">“層級應用”</strong>發展由生物可分解原料製成產物，此外製程中廢棄的「生質原料」則經過轉化為易於利用、含有能量的生物燃料（生質能源），最後仍安全的回歸自然進而滋養生態圈。</p>
+                    </font>
+                    <div class="fourL-content" style="margin-top:30px;">
+                        <div class="content-step">
+                            <div class="fourL-circle">
+                                <i class="material-icons">&#xe066;</i>
+                            </div>
+                        </div>
+                        <h4>Aquaponics 系統構成</h4>
+                        <p>新型複合耕作體系實現魚、蔬菜、微生物相互共養同時轉化植物可吸收肥料、淨化水源的無土有機農法。</p>
+                    </div>
+                    <div class="fourL-content">
+                        <div class="content-step">
+                            <div class="fourL-circle">
+                                <i class="material-icons">&#xe066;</i>
+                            </div>
+                        </div>
+                        <h4>實質效益</h4>
+                        <p>
+                        無土栽培，意謂無農藥用武之地。無毒農耕有效環境保護，平衡了生態系，形成可循環、低碳零排放之生產模式。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fourR">
+                    <!--<div class="fourR-img">
+                    </div>-->
+                    <div class="hvrbox">
+                        <img src="img/bb.png" alt="Mountains" class="hvrbox-layer_bottom"/>
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text" style="font-size:14px;">
+                                <h4 style="margin-bottom:13px;">Level 1 - 魚菜共生</h4>
+                                <p>島上每日以隨機的方式分配有限資源，玩家若以三天打魚，兩天曬網的方式搜索糧食，生命值很快會消耗殆盡，必須取得永續資源，才能確保生存。<br style="line-height:35px;">玩家須湊齊漁獲、水生植物、特性中空的喬木類(如：竹類植物)，並活用材料表提供之器材劈砍竹類打造魚菜共生機具，待魚菜共生規模擴建到一定程度隨即結束關卡。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--=======================================-->
+        <div id="technology" class="row two" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-12" align="center">
+                <div class="two-content">
+                    <h2>遊戲開發環境</h2>
+                    <p>
+                        遊戲後續後台應用將延伸至<strong style="color:#1b75b5;font-weight:500;">online/offline虛實整合</strong>模式，提供玩家每日登入獎勵，或建立O2O營銷模式，於線上提供玩家娛樂及實質商品回饋，而線下與商業夥伴提供服務與交易上合作，玩家也可以在現實世界中得到實質的回饋。以下為當前遊戲開發環境：
+</p>
+                </div>
+            </div>
+        </div>
+        <!--===========================================-->
+        <div class="row five" style="margin-left:auto;margin-right:auto;">
+            <div class="col-lg-6">
+                <div class="fiveL">
+                    <div class="icon-content" style="float:right;position:relative;">
+                        <!--<i class="fa fa-quote-left" style="float:right;"></i>-->
+                        <img src="img/phone.png" width="90" height="45" style="float:right;margin-top:-5px;"/>
+                    </div>
+                </div>
+                <br>
+                <div class="fiveR">
+                    <div class="fiveR-content">
+                        <div class="dotted-line" style="margin-right:-16px;position:relative;float:right;"></div>
+                        <h4>雲端商業邏輯</h4>
+                        <p>
+                            <strong style="color:#1b75b5;font-weight:500;">ASP.NET：</strong>為主要的伺服器技術，資料庫存取技術使用ADO.NET實體資料模型；網路服務使用  Web API，以JSON格式做存取。促進快速發展，共用行動應用程式資源，促使應用程式因獲得雲端支援而能減少使用裝置資源。
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="fiveL">
+                    <div class="icon-content" style="float:right;position:relative;">
+                        <!--<i class="fa fa-quote-left" style="float:right;"></i>-->
+                        <!--<i class="fa fa-spinner w3-spin" style="font-size:34px;float:right;"></i>-->
+                        <img src="img/database.png" style="width:100px;height:83px;float:right;margin-top:-25px;" />
+                    </div>
+                </div>
+                <br>
+                <div class="fiveR">
+                    <div class="fiveR-content">
+                        <div class="dotted-line" style="margin-right:-16px;position:relative;float:right;"></div>
+                        <h4>雲端平台</h4>
+                        <p>
+                            <strong style="color:#1b75b5;font-weight:500;">Microsft Azure Web Sites服務：</strong>將資料安全的留在資料中心，集中化資料防護和桌面安全，為本遊戲主要的網站服務，透過ASP.NET將資料庫的資料存取至遊戲中。
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="fiveR">
+                    <div class="fiveR-content">
+                        <div class="dotted-line" style="margin-left:-124px;"></div>
+                        <h4>APP行動裝置程式</h4>
+                        <p>
+                            目前行動裝置以Android、ios、Windows Phone為主要三大平台，其中以Android平台為最多使用者使用 ，本系統以<strong style="color:#1b75b5;font-weight:500;">Android</strong>為主要平台，並利用Java+Android SDK等技術開發設計Android App。
+</p>
+                    </div>
+                </div>
+                <br>
+                <div class="fiveL">
+                    <div class="icon-content" style="float:left;position:relative;">
+                        <!--<i class="fa fa-quote-left" style="float:left;"></i>-->
+                        <!--<i class="fa fa-spinner w3-spin" style="font-size:34px;float:left;"></i>-->              
+                        <img src="img/logic.png" style="width:75px;height:97px;margin-top:-29px;float:left;"/>         
+                    </div>
+                </div>
+                <br>
+                <div class="fiveR">
+                    <div class="fiveR-content">
+                        <div class="dotted-line" style="margin-left:-124px;"></div>
+                        <h4>雲端資料庫</h4>
+                        <p>
+                            <strong style="color:#1b75b5;font-weight:500;">SQL Database：</strong>雲端儲存的可用性、耐久性等優勢，解決長時間傳輸以及安全疑慮。
+                            透過資料庫存取技術ADO.NET實體資料模型與伺服器相互連結，作為主要資料庫。
+                            
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="fiveL">
+                    <div class="icon-content" style="float:left;position:relative;">
+                        <!--<i class="fa fa-quote-left" style="float:left;"></i>-->
+                        <img src="img/azure.png" width="110" height="71" style="margin-top:-10px;float:left;"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============================================-->
+        <div id="market" class="row six" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-12" align="center">
+                <div class="six-content">
+                    <h2>消費者行為分析＆輕度休閒手遊</h2>
+                    <p>
+                        有鑑於當今循環經濟相關議題未能充分與手機遊戲結合達到最佳成效，於是在這款遊戲的設計上突破以往空洞的孤島求生題材做為遊戲獨創的教育寓意，以增加遊戲新鮮度，並以市場趨勢做為開發時的首要考量。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--===================================================-->
+        <div class="row seven" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-4" style="padding:0;">
+                <div class="seven-outer">
+                    <div class="seven-circle">
+                        <div class="circle-inside">
+                            <i class="material-icons">&#xe1b8;</i>
+                        </div>
+                    </div>
+                </div>
+                <h4>消費者遊玩時機</h4>
+                <p>
+                    基於市場調研公司TNS提出「全球手遊玩家動態分析報告」，針對地域不一、年齡層18歲以上的族群施行問卷統計。指出手遊玩家最頻繁於<strong style="color:#1b75b5;font-weight:500;">“通勤、等候等瑣碎時間”</strong>遊玩手遊。
+</p>
+            </div>
+            <div class="col-md-4" style="padding:0;">
+                <div class="seven-contnetC">
+                    <div class="seven-outer">
+                        <div class="seven-circle">
+                            <div class="circle-inside">
+                                <i class="material-icons">&#xe1b8;</i>
+                                <div class="inside-effect" style="width:50px;height:50px;border-radius:999em;margin-top:-45px;margin-left:-12.3px;opacity:0.5;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>男女玩家喜好遊戲類型</h4>
+                    <p>
+                        益智、休閒類型的智慧型手遊可謂大勢所趨，透露出簡易、無負擔、便於打發時間的<strong style="color:#1b75b5;font-weight:500;">輕度遊戲</strong>已榮登消費者榜上必備的娛樂小品。
+</p>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding:0;">
+                <div class="seven-outer">
+                    <div class="seven-circle">
+                        <div class="circle-inside">
+                            <i class="material-icons">&#xe1b8;</i>
+                        </div>
+                    </div>
+                </div>
+                <h4>玩家型態改變</h4>
+                <p>
+                    家長躋身為<strong style="color:#1b75b5;font-weight:500;">跨代遊戲玩家</strong>，其意圖包含家庭娛樂活動、教育活動等…
+                    故本遊戲開發上針對使用者自行調理、合成、製作，<strong style="color:#1b75b5;font-weight:500;">寓教於樂</strong>為特色吸引小朋友、大人們一同加入遊玩。
+</p>
+            </div>
+        </div>
+        <!--===============================================-->
+        <div id="biogas" class="row four" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-6">
+                <div class="fourR" align="center">
+                    <!--<div class="fourR-img">
+
+                    </div>-->
+                    <div class="hvrbox">
+                        <img src="img/aa.png" alt="Mountains" class="hvrbox-layer_bottom" />
+                        <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">
+                                <h4 style="margin-bottom:13px;">Level 2 - 沼氣發電</h4>
+                                <p style="font-size:14px;">
+                                  
+                                玩家種植的蔬菜在設定中遭遇山豬的啃食，於是藉以原住民族狗獵山豬的捕獵方式取代捕獸夾捕捉，能免於生物遭逢截肢的命運，此時活捉的山豬則眷養起來作為沼氣來源。
+                                <br>鑑於綠能及環保是畜牧業永續經營的關鍵要素，玩家可於蒐集海洋漂流物或預設「材料表」中找到沼氣表等發電用具製作沼氣發電機具，即能利用沼氣發電的特點，發展生質綠能產業，最後應用於燒熱水，以及豬舍的保溫燈上。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fourL">
+                    <font>
+                        <span>REUSE RESOURCES</span>
+                        <h2>生物循環–沼氣發電</h2>
+                        <span style="letter-spacing:4px;position:absolute;top:113px;">——</span><br>
+                        <p>
+                            若將畜牧業代入生物循環框架，會形成此情境：「養豬場眷養豬隻，產銷給盤商，供給零售、消費者製造、使用食材，豬隻釋出的沼氣，此熱能來源經純化能避免額外二氧化碳釋放，<strong style="color:#1b75b5;font-weight:500;">“協助豬舍保溫”</strong>，導入發電機組則可<strong style="color:#1b75b5;font-weight:500;">“供應民生用電”</strong>。」
+</p>
+                    </font>
+                    <div class="fourL-content" style="margin-top:30px;">
+                        <div class="content-step">
+                            <div class="fourL-circle">
+                                <i class="material-icons">&#xe066;</i>
+                            </div>
+                        </div>
+                        <h4>實質效益</h4>
+                        <p>豬隻排泄物經<strong style="color:#1b75b5;font-weight:500;">厭氧發酵槽 (digester) </strong>排出的液體，優於傳統水肥，有效降低病菌含量、減少水質汙染、避免惡臭瀰漫空氣。</p>
+                    </div>
+                    <div class="fourL-content">
+                        <div class="content-step">
+                            <div class="fourL-circle">
+                                <i class="material-icons">&#xe066;</i>
+                            </div>
+                        </div>
+                        <h4>醫學領域應用</h4>
+                        <p>
+                            豬皮膚能夠發展出防止外傷二度感染的<strong style="color:#1b75b5;font-weight:500;">“豬皮敷料”</strong>。豬血則可取代胎牛血清，提煉產出<strong style="color:#1b75b5;font-weight:500;">液血小板濃厚血漿(P-PRP)</strong>，應用於試管嬰兒、流感疫苗、細胞培養上。甚至從<strong style="color:#1b75b5;font-weight:500;">人血液代用品、抗癌藥物</strong>中也能見識到豬血成分。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================== -->
+        <div id="literature" class="row twelve" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-12">
+                <div class="twelve-contentT">
+                    <h5>參考文獻 References</h5>
+                    <!--<div class="progress" style="height:50px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"> <h5>參考文獻 References</h5></div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="twelve-contentB">
+                    <!--<h5 style="padding-bottom:5px;">Recent updates</h5>
+                    <hr>-->
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf0c1;</i> 全球足跡網路</strong>
+                        <div class="Bphoto"><span class="badge badge-light">1</span></div>
+                        <p>〈為什麼過去的地球過沖日期不斷變化〉，https://www.overshootday.org/，摘錄於 13 July 2017。</p>
+                        <hr>
+                    </div>
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf0c1;</i> 循環台灣基金會</strong>
+                        <div class="Bphoto" style="background-color:#e83e8c;"><span class="badge badge-light">2</span></div>
+                        <p>〈何謂循環經濟？〉，https://www.circular-taiwan.org/ceintro ，2017。</p>
+                        <hr>
+                    </div>                   
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf02d;</i> 廖婷雩</strong>
+                        <div class="Bphoto"><span class="badge badge-light">3</span></div>
+                        <p>〈國際企業因應循環經濟之模式與案例研析〉。國立臺北科技大學碩士論文，2017。</p>
+                        <hr>
+                    </div>
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf0c1;</i> 巴哈姆特</strong>
+                        <div class="Bphoto"><span class="badge badge-light">4</span></div>
+                        <p>〈市調公司Digi - Capital統計2017年遊戲業總產值首次突破1500億美金，手機遊戲居冠〉，https://gnn.gamer.com.tw/2/149762.html。 </p>
+                        <hr>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="twelve-contentB">
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf02d;</i> 凌巧蓉</strong>
+                        <div class="Bphoto" style="background-color:#6f42c1;"><span class="badge badge-light">5</span></div>
+                        <p>〈以自然農法養耕共生之經營行銷模式探討—以思原生態農場為例〉。國立清華大學碩士論文，2017。</p>
+                        <hr>
+                    </div>
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf0c1;</i> Facebook IQ</strong>
+                        <div class="Bphoto"><span class="badge badge-light">6</span></div>
+                        <p>〈全球遊戲產業新趨勢—社交至上的手遊玩家〉，https://www.facebook.com/iq/articles/
+                        <br>
+                        mobile-gamers-trend32016，摘錄於 26 October 2016。</p>
+                        <hr>
+                    </div>
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf02d;</i> 劉怡欣</strong>
+                        <div class="Bphoto" style="background-color:#6f42c1;"><span class="badge badge-light">7</span></div>
+                        <p>〈資源永續利用與循環經濟法制之研究〉。國立高雄大學碩士論文，2011。</p>
+                        <hr>
+                    </div>     
+                    <div class="contentB-content">
+                        <strong><i style="font-size:16px" class="fa">&#xf02d;</i> 王豐文</strong>
+                        <div class="Bphoto" style="background-color:#6f42c1;"><span class="badge badge-light">8</span></div>
+                        <p>〈養豬場之沼氣發電研究〉。國立中興大學論文，1993。</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--======================================-->
+        <div id="team" class="row eleven" style="margin-left:auto;margin-right:auto;background-color:#000000;">
+            <div class="col-md-12" align="center">
+                <div class="eleven-content">
+                    <h2>開發團隊</h2>
+                    <p>
+                        由此可見，「生物循環帶動經濟循環」的創新思維，締造了無窮民生價值，改進養豬產業營運模式同時，豬隻產品之附加價值得以提升。看準環保商機如此佳績，產業紛紛邁向探索循環經濟範疇中，不同的原則與技術搭配，宏觀發想創新的商業價值。以下為本產品開發團隊成員介紹：
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--======================================-->
+        <!--<div class="row eight" style="margin-left:auto;margin-right:auto;">
+            <div class="col-sm-4">
+                <div class="eight-outer">
+                    <div class="eight-content">
+                        <div class="eight-message">
+                            <p>
+                                Etiam ullamcorper et turpis eget hendrerit. Praesentt
+                                varius risus mi, at elementum magna ultricies accum
+                                san. Cras venenatis lacus sed dolor placerat tempus.
+                            </p>
+                        </div>
+                        <div class="message-triangle"></div>
+                    </div>
+                    <div class="eight-avatar"></div>
+                    <h4>COPYRIGHT</h4>
+                    <span>Michele LampaPub</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="eight-outer">
+                    <div class="eight-content">
+                        <div class="eight-message">
+                            <p>
+                                Etiam ullamcorper et turpis eget hendrerit. Praesentt
+                                varius risus mi, at elementum magna ultricies accum
+                                san. Cras venenatis lacus sed dolor placerat tempus.
+                            </p>
+                        </div>
+                        <div class="message-triangle"></div>
+                    </div>
+                    <div class="eight-avatar"></div>
+                    <h4>COPYRIGHT</h4>
+                    <span>Michele LampaPub</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="eight-outer">
+                    <div class="eight-content">
+                        <div class="eight-message">
+                            <p>
+                                Etiam ullamcorper et turpis eget hendrerit. Praesentt
+                                varius risus mi, at elementum magna ultricies accum
+                                san. Cras venenatis lacus sed dolor placerat tempus.
+                            </p>
+                        </div>
+                        <div class="message-triangle"></div>
+                    </div>
+                    <div class="eight-avatar"></div>
+                    <h4>COPYRIGHT</h4>
+                    <span>Michele LampaPub</span>
+                </div>
+            </div>
+        </div>-->
+        <!--===========================-->
+        <div id="loop" class="carousel slide" data-ride="carousel" style="font-family: Century Gothic;background-color:#000000;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row eight" style="margin-left:auto;margin-right:auto;">
+                        <div class="col-lg-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            現職｜僑光科技大學多媒體與遊戲設計系專任講師<br>
+                                            簡要經歷｜Microsoft Most Valuable Professional, MVP(台灣微軟最有價值專家),
+                                            全域科技技術顧問,
+                                            大擎科技專案顧問,
+                                            一級棒資訊程式設計師,
+                                            益智王網路股份有限公司程式設計師,
+                                            麗光電子股份有限公司系統分析師,
+                                            資訊教育研究室專業作者暨技術顧問。
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar" style="background-image: url('img/t01.jpg'); background-size: 60px 60px;"></div>
+                                <h4 class="eight-h4">蔡文龍<strong style="font-weight:500;font-size:14px;">｜指導教授</strong></h4>
+                                <span class="eight-span">CAI,WUN-LONG</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            現職｜僑光科技大學多媒體遊戲設計系專任助理教授<br>
+                                            學＆經歷｜國立雲林科技大學設計學博士,
+                                            樹德科技大學應用設計研究所碩士,
+                                            國立臺中教育大學數位內容科技系兼任講師,
+                                            國立雲林科技大學視覺傳達設計系兼任講師,
+                                            國立高雄師範大學工業設計系兼任講師,
+                                            義守大學數位多媒體設計學系兼任講師。
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar" style="background-image: url('img/testi_pic (2).jpg');background-size: 60px 60px;"></div>
+                                <h4 class="eight-h4">曾芷琳<strong style="font-weight:500;font-size:14px;">｜指導教授</strong></h4>
+                                <span class="eight-span">Chih-Lin Tseng</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            現職｜僑光科技大學多媒體遊戲設計學生<br>
+                                            競賽＆經歷｜擔任公民營機關委託/補助研究及產學計畫兼任助理,
+                                            擔任大才全資訊科技股份有限公司UI/UX實習生,
+                                            第四屆資灣盃網頁創意設計競賽榮獲第三名,
+                                            雲端運算專題成果與開源軟體創意設計競賽佳作。
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar" style="background-image: url('img/s01.jpg');background-size: 60px 60px;"></div>
+                                <h4 class="eight-h4">林家瑜<strong style="font-weight:500;font-size:14px;">｜前端版型設計人員</strong></h4>
+                                <span class="eight-span">LIN,JIA-YU</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="carousel-item">
+                    <div class="row eight" style="margin-left:auto;margin-right:auto;">
+                        <div class="col-md-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            現職｜僑光科技大學多媒體遊戲設計學生<br>
+                                            競賽＆經歷｜Open Data創新應用競賽-政府及企業指定類-easy Traffic服務平台組銀獎,
+                                            大會指定類-開放資料應用組銀獎,
+                                            Open Data產品潛力獎,
+                                            雲端運算專題成果與開源軟體創意設計競賽佳作,
+                                            育秀盃創意獎（軟體應用類）榮獲入圍獎。
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar"></div>
+                                <h4 class="eight-h4">萬鴻曜<strong style="font-weight:500;font-size:14px;">｜後端/行動APP設計人員</strong></h4>
+                                <span class="eight-span">WAN,HONG-YAO</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            Etiam ullamcorper et turpis eget hendrerit. Praesentt
+                                            varius risus mi, at elementum magna ultricies accum
+                                            san. Cras venenatis lacus sed dolor placerat tempus.
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar"></div>
+                                <h4 class="eight-h4">COPYRIGHT</h4>
+                                <span class="eight-span">Michele LampaPub</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="padding:0 5px;">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            Etiam ullamcorper et turpis eget hendrerit. Praesentt
+                                            varius risus mi, at elementum magna ultricies accum
+                                            san. Cras venenatis lacus sed dolor placerat tempus.
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar"></div>
+                                <h4 class="eight-h4">COPYRIGHT</h4>
+                                <span class="eight-span">Michele LampaPub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="carousel-item">
+                    <div class="row eight" style="margin-left:auto;margin-right:auto;padding-bottom:71.5px;">
+                        <div class="col-md-12">
+                            <div class="eight-outer">
+                                <div class="eight-content">
+                                    <div class="eight-message">
+                                        <p>
+                                            現職｜僑光科技大學多媒體遊戲設計學生<br>
+                                            競賽＆經歷｜Open Data創新應用競賽-政府及企業指定類-easy Traffic服務平台組銀獎,
+                                            大會指定類-開放資料應用組銀獎,
+                                            Open Data產品潛力獎,
+                                            雲端運算專題成果與開源軟體創意設計競賽佳作,
+                                            育秀盃創意獎（軟體應用類）榮獲入圍獎。
+                                        </p>
+                                    </div>
+                                    <div class="message-triangle"></div>
+                                </div>
+                                <div class="eight-avatar" style="background-image: url('img/t02.jpg');background-size: 60px 60px;"></div>
+                                <h4 class="eight-h4">萬鴻曜<strong style="font-weight:500;font-size:14px;">｜後端/行動APP設計人員</strong></h4>
+                                <span class="eight-span">WAN,HONG-YAO</span>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#loop" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#loop" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- =============================== -->
+           
+       <!--==================================-->
+    <div id="footer" class="footer">
+        <div class="row nine" style="margin-left:auto;margin-right:auto;">
+            <div class="col-md-4" style="padding:0;">
+                <div class="nine-content">
+                    <h4><span>©</span> Copyright</h4>
+                    <p>© Copyright 2018全國慈善/科技/人文<br>網頁設計比賽暨行動APP創作比賽. All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding:0;">
+                <div class="nine-content">
+                    <h4><span><i style="font-size:18px;" class="material-icons">&#xe55e;</i></span> Address</h4>
+                    <p>
+                        40721 台中市西屯區僑光路 100 號 | 100,Chiao Kwang Rd., Taichung 40721,
+                    </p>
+                </div>   
+            </div>
+            <div class="col-md-4" style="padding:0;">
+                <div class="nine-content">
+                    <h4><span><i style="font-size:18px;" class="material-icons">&#xe8c5;</i></span> Contact</h4>
+                    <p >
+                        傳真：(04)2707-5420<br>電子郵件：mgd@ocu.edu.tw
+                        100,Chiao Kwang Rd., Taichung 40721, Taiwan
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+var cover = $(".cover").html();
+var three = $("#three").html();
+$("#btn_close").on("click", function () {
+    if ($("#btn_close").hasClass("active") == false) {
+        $("#btn_close").toggleClass("active");
+        $("#btn_open").toggleClass("active");
+        $("#three").html(cover);
+    }
+   
+});
+$("#btn_open").on("click", function () {
+    if ($("#btn_open").hasClass("active") == false) {
+        $("#btn_close").toggleClass("active");
+        $("#btn_open").toggleClass("active");
+        $("#three").html(three);
+    }
+});
+
+$(document).on('click', '.goto[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+});
+    </script>
+</body>
+</html>
